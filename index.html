@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kevin's Travel Journal</title>
+  <style>
+    body {
+      font-family: 'Poppins', 'Times New Roman', Times, serif;
+      margin: 0;
+      background: linear-gradient(to bottom right, #f8f9fa, #e3f2fd);
+      color: #333;
+    }
+    header {
+      background-color: orange;
+      color: black;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    .countries {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .country {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      transition: 0.3s;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+    }
+    .country:hover {
+      transform: scale(1.05);
+    }
+    .country img {
+      width: 100%;
+      height: 140px; 
+      object-fit: cover;
+      border-bottom: 3px solid red; 
+    }
+    .country h3 {
+      text-align: center;
+      padding: 12px;
+      margin: 0;
+      color: red;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Travel Journey 👍</h1>
+    <p>My adventures around the world during Semester Holiday</p>
+  </header>
+
+  <section class="countries">
+    <a href="china.html" class="country">
+      <img src="https://assets.weforum.org/article/image/U0xE6axznL6qqpPyfHRRb2myzGzoJQoxhMiKIl_4Mqw.JPG" alt="China">
+      <h3>China</h3>
+    </a>
+
+    <a href="japan.html" class="country">
+      <img src="https://wise.com/imaginary-v2/9f3b4a8f5fe32b775cd50cf626ad9781.jpg?width=1200" alt="Japan">
+      <h3>Japan</h3>
+    </a>
+
+    <a href="australia.html" class="country">
+      <img src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10A3C/production/_129365186_gettyimages-103455489.jpg" alt="Australia">
+      <h3>Australia</h3>
+    </a>
+  </section>
+
+</body>
+</html>
